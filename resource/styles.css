@@ -1,0 +1,165 @@
+/* latin */
+@font-face {
+  font-family: 'Concert';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/concertone/v21/VEM1Ro9xs5PjtzCu-srDqSTijP6gukAR.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Silkscreen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/silkscreen/v4/m8JXjfVPf62XiF7kO-i9YLNla0GA1dM.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Silkscreen';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/silkscreen/v4/m8JUjfVPf62XiF7kO-i9aAhAfmyi2PmeBvY.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Urbanist';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/urbanist/v15/L0x-DF02iFML4hGCyMqlbS1miXK2.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html {
+  background-color: #353B3C;
+  font-family: 'silkscreen';
+  color: #EEF0F2;
+  min-width: 100px;
+  max-width: 700px;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+nav {
+  text-align: center;
+  overflow: auto;
+  margin: 40px auto;
+}
+nav p {
+  display: inline;
+}
+nav a {
+  color: #EEF0F2;
+  padding: 15px;
+  margin-top: 50px;
+}
+nav a:hover {
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: font-size .04s ease-in;
+}
+.fontcontainer {
+  border: 5px solid #846A6A;
+  padding: 10px;
+  margin-top: 25px;
+}
+.fontenjoy {
+  text-align: center;
+}
+.fontpanel {
+  display: inline-block;
+  padding-left: 120px;
+}
+.concert {
+  font-family: 'Concert';
+}
+.silkscreen700 {
+  font-weight: 700;
+}
+.urbanist400 {
+  font-family: 'Urbanist';
+  font-weight: 400;
+}
+.urbanist500 {
+  font-family: 'Urbanist';
+  font-weight: 500;
+}
+.urbanist600 {
+  font-family: 'Urbanist';
+  font-weight: 600;
+}
+.colorcontainer {
+  border: 5px solid #846A6A;
+  padding: 10px;
+  margin-top: 25px;
+}
+.color-panel {
+  display: inline;
+}
+.color-panel-onyx {
+  text-align: center;
+  background-color: #353B3C;
+  border: 5px dotted #EEF0F2;
+  margin: 15px auto;
+}
+.color-panel-rosetaupe {
+  text-align: center;
+  background-color: #846A6A;
+  border: 5px dotted #EEF0F2;
+  margin: 15px auto;
+}
+.color-panel-rosequartz {
+  text-align: center;
+  background-color: #A29993;
+  border: 5px dotted #EEF0F2;
+  margin: 15px auto;
+}
+.color-panel-silver {
+  text-align: center;
+  color: #353B3C;
+  background-color: #C6C7C4;
+  border: 5px dotted #EEF0F2;
+  margin: 15px auto;
+}
+.color-panel-antiflashwhite {
+  text-align: center;
+  color: #353B3C;
+  background-color: #EEF0F2;
+  border: 5px dotted #846A6A;
+}
+footer {
+  text-align: center;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 50px;
+  background-color: #C6C7C4;
+  color: #353B3C;
+}
